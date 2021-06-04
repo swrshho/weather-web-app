@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <title>Weather</title>
+</head>
+<body>
+  <div class="weather">
+    <input type="search" list="suggestions" class="weather__search" placeholder="Your City">
+    <datalist id="suggestions"></datalist>
+
+    <div class="weather__today">
+      <div class="weather__details">
+        <h2 class="weather__city">city</h2>
+        <p class="weather__day">day</p>
+        <div class="weather__current">
+          <p class="weather__indicator weather__indicator--humidity"><span class="value">50</span>%</p>
+          <p class="weather__indicator weather__indicator--wind"><span class="value">west, 5</span>m/s</p>
+          <p class="weather__indicator weather__indicator--presure"><span class="value">1050</span>hPa</p>
+        </div>
+      </div>
+      <img src="./images/clear-sky.png" alt="Clear Sky" class="weather__image">
+      <div class="weather__temperature"><span class="value">+25</span>&deg;C</div>
+    </div>
+    <div class="weather__forcast">
+      <article class="weather__forcast__item">
+        <img src="./images/clear-sky.png" alt="Clear Sky" class="weather__forcast__icon">
+        <h3 class="weather__forcast__day">Day</h3>
+        <p class="weather__forcast__temperatur">+25</p>
+      </article>
+      <article class="weather__forcast__item">
+        <img src="./images/clear-sky.png" alt="Clear Sky" class="weather__forcast__icon">
+        <h3 class="weather__forcast__day">Day</h3>
+        <p class="weather__forcast__temperatur">+25</p>
+      </article>
+      <article class="weather__forcast__item">
+        <img src="./images/clear-sky.png" alt="Clear Sky" class="weather__forcast__icon">
+        <h3 class="weather__forcast__day">Day</h3>
+        <p class="weather__forcast__temperatur">+25</p>
+      </article>
+      <article class="weather__forcast__item">
+        <img src="./images/clear-sky.png" alt="Clear Sky" class="weather__forcast__icon">
+        <h3 class="weather__forcast__day">Day</h3>
+        <p class="weather__forcast__temperatur">+25</p>
+      </article>
+      <article class="weather__forcast__item">
+        <img src="./images/clear-sky.png" alt="Clear Sky" class="weather__forcast__icon">
+        <h3 class="weather__forcast__day">Day</h3>
+        <p class="weather__forcast__temperatur">+25</p>
+      </article>
+    </div>
+  </div>
+  
+
+  <script src="./JS/script.js"></script>
+</body>
+</html>
